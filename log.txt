@@ -46,4 +46,11 @@ Altered aboutus.html
 -Added address tag to address
 -Altered Social Media icons to display correct order as footer
 
+v0.1.3
+Altered custom.css
+-Updated font for the website
+-Added hover on social media icons
+-Altered #maincaontainer height
 
+Altered locations.html
+-Added Locations well under Nav bar
