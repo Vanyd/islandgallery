@@ -1,6 +1,7 @@
-hange Log |
-|==============|
 
+CHANGE LOG
+
+v0.1.1
 Updated footer - all pages
 -Added an Address tag to first column
 -Added Contact Us to second column
@@ -19,3 +20,30 @@ Edited exhibition-carol.html
 
 Edited exhibition-colin.html
 -Fixed a bug where the paintings and descriptions did not match
+
+v0.1.2
+
+Updated location.html
+-Missing </a> next to Driving section
+-Added Google map Embedded 
+
+Updated custom.css
+-Altered #mainbodycontainer 
+	- Added Min and Max height
+
+Updated stayingingalway.html
+-Added links to individual hotels
+-Added links to open in new tab
+
+Updated navigation bar
+-Added Contact Page 
+-Altered Nav bar brand from <a> to <p>
+
+Created contact.html
+-Created page for a contact form
+
+Altered aboutus.html
+-Added address tag to address
+-Altered Social Media icons to display correct order as footer
+
+

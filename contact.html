@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Island Gallery</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/spike.js"></script>
+
+
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<div class="container">
+    <div class="container-fluid">
+
+        <!-- BANNER -->
+
+        <div id="banner">
+            <img src="images/banner/banner1.jpg" alt="banner" class="img-responsive">
+        </div>
+
+        <!-- NAV BAR -->
+
+        <div class="navbar-header">
+            <p class="navbar-brand">Island Gallery</p>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+
+                <a class="dropdown-toggle" data-toggle="dropdown" href="">Artist
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="exhibition-colin.html">Colin Carruthers</a></li>
+                    <li><a href="exhibition-carol.html">Carol Ann Carrigan</a></li>
+                    <li><a href="exhibition-john.html">John O'Grady</a></li>
+                </ul>
+            </li>
+            <li><a href="exhibition.html">Exhibition</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li class="active"><a href="location.html">Location</a></li>
+            <li><a href="stayingingalway.html">Staying in Galway</a></li>
+            <li><a href="buy.html">How To Buy</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <br>
+
+    <!-- BODY -->
+
+    <div class="well"><h1 class="text-left">Contact Us</h1></div>
+
+    <div class="row" id="mainbodycontainer">
+        <div class="col-md-2">
+            <address>
+                <strong>Island Gallery.</strong><br>
+                Nun’s Island Road<br>
+                Galway, Ireland<br>
+            </address><br>
+            <address>
+                <strong>Contact Us</strong><br>
+                <a href="mailto:#">first.last@example.com</a><br>
+                <abbr title="Phone">P:</abbr> (091) 591-5554
+            </address>
+        </div>
+
+        <div class="col-md-10">
+            <form id="contact-form" method="post" action="contact.php" role="form">
+
+                <div class="messages"></div>
+
+                <div class="controls">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Lastname *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_phone">Phone</label>
+                                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Divider between BODY and FOOTER -->
+
+<div class="row">
+    <div class="col-md-12">
+
+        <br><br>
+
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+
+
+<div class="well">
+    <div class="row">
+        <div class="col-md-4">
+            <address>
+                <strong>Island Gallery.</strong><br>
+                Nun’s Island Road<br>
+                Galway, Ireland<br>
+            </address>
+        </div>
+        <div class="col-md-4">
+            <address>
+                <strong>Contact Us</strong><br>
+                <a href="mailto:#">islandgallery@gmail.com</a><br>
+                <abbr title="Phone">P:</abbr> 086-123-4567
+            </address>
+        </div>
+        <div class="col-md-1">
+            <img class="img-responsive" src="images/footer/insta.gif">
+        </div>
+        <div class="col-md-1">
+            <img class="img-responsive" src="images/footer/facebook.gif">
+        </div>
+        <div class="col-md-1">
+            <img class="img-responsive" src="images/footer/twitter.gif">
+        </div>
+        <div class="col-md-1">
+            <img class="img-responsive" src="images/footer/youtube.gif">
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

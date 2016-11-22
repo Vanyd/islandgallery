@@ -31,7 +31,8 @@ li {
 	}
 
 #mainbodycontainer {
-    height: 400px;
+    max-height: 800px;
+    min-height: 400px;
 }
 
 button {
