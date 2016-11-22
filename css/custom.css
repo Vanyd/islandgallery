@@ -34,11 +34,7 @@ body {
 	block: center;
 	}
 
-#mainbodycontainer {
-    height: 600px;
-    max-height: 100%;
-    min-height: 400px;
-}
+
 
 button {
     border: none;

@@ -54,3 +54,16 @@ Altered custom.css
 
 Altered locations.html
 -Added Locations well under Nav bar
+
+v0.1.4
+Altered buy.html
+-Added stock photos
+
+Altered custom.css
+-Removed #mainbodycontainer
+
+Altered exhibition.html
+-Added Well class
+
+Altered contact.html
+-Aligned well text to centre
