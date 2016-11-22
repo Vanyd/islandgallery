@@ -1,0 +1,21 @@
+hange Log |
+|==============|
+
+Updated footer - all pages
+-Added an Address tag to first column
+-Added Contact Us to second column
+
+Edited custom.css
+-Added a min heigh restriction to #mainbodycontainer
+—Resolved a bug where image sizes would jump page around
+
+Edited index.html
+-Fixed carousel width and height so images would stop resizing.
+-Added captions to carousel pictures
+-Added links from carousel captions to Artist page
+
+Edited exhibition-carol.html
+-Fixed a bug where the paintings and descriptions did not match
+
+Edited exhibition-colin.html
+-Fixed a bug where the paintings and descriptions did not match
