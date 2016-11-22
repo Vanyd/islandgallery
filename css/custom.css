@@ -30,8 +30,30 @@ li {
 	block: center;
 	}
 
+#mainbodycontainer {
+    height: 400px;
+}
+
 button {
     border: none;
     padding: 0;
     background: none;
 }
+
+
+.carousel {
+    max-height: 700px;
+    overflow: hidden;
+}
+
+.carousel-inner > .item > img{
+    width:640px;
+    height:360px;
+}
+
+.carousel-inner a{
+    color: inherit;
+    font: "calibri"
+}
+
+
