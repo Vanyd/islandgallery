@@ -34,7 +34,9 @@ body {
 	block: center;
 	}
 
-
+#mainbodycontainer {
+    min-height: 400px;
+}
 
 button {
     border: none;
